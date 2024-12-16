@@ -56,5 +56,4 @@ let states = [["Pune","Nagpur"],["Jaipur","Udaipur"],["Bhopal","Indore"]]
 console.log(states[0][1])
 console.log(states[2][1])
 console.log(states[1][1])
-
 console.log(states.flat())
