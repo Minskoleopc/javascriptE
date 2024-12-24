@@ -79,3 +79,6 @@ for(let i = 0 ; i < cities.length ; i++){
 cities.forEach(function(el,index,arr){
     console.log("welcome "+ el)
 })
+
+// map() , filter(), reduce(), forEach()
+// find(), findIndex(),every(),some()

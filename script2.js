@@ -110,10 +110,11 @@ while(s1 <= 5){
 let s2 = 1 
 while(s2 <= 5){
     if(s2 == 3){
+        s2 = s2 +1 // 4
         continue
     }
-    console.log(s2) // 1 //2
-    s2 = s2 + 1 // 2 // 3
+    console.log(s2) // 1  // 2 // 4 // 5
+    s2 = s2 + 1 // 2  // 3 // 5 // 6
 }
 
 
