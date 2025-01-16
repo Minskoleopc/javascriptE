@@ -40,7 +40,7 @@
 // // My firstName is chinmay and my lastName is Deshpande
 
 // console.log("My firstName is "+firstName+" and my lastName is "+lastName)
-// console.log(`My firstName is ${firstName} and my lastName is ${lastName}`)
+ console.log(`My firstName is ${firstName} and my lastName is ${lastName}`)
 
 
 // // program 4

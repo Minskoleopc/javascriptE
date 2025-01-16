@@ -62,7 +62,7 @@ console.log(mapD.get(1))
 // set 
 
 let setA = new Set()
-setA.add(1)
+setA.add({fn:"chinmay"})
 setA.add(1)
 setA.add(11)
 setA.add(12)
@@ -101,4 +101,7 @@ setB.forEach(function(val){
 // React , Cypress , Playwright , Selenium
 
 
-
+// let a = 10
+// let n  = []
+// let m = {}
+// let h = true
