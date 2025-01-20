@@ -1,0 +1,19 @@
+h1 {
+    color:red;
+}
+
+.fr {
+    color:red;
+    background-color:yellow;
+    width: 200px;
+    height: 200px;
+}
+.vg {
+    color:green;
+    background-color:yellow;
+    width: 200px;
+    height: 200px;
+}
+#one {
+    color:purple;
+}
