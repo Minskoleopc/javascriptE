@@ -14,16 +14,36 @@ buttonOne.addEventListener('click', function () {
 })
 
 ulList.addEventListener('click', function (event) {
-    //console.log(event.target) element
-    // console.log(event.target.tagName)
-    //console.log(event.target.className)
+
     if (event.target.tagName == "BUTTON") {
+
         if (event.target.className == "remove") {
+            let li = event.target.parentElement
+            let ul = li.parentElement
+            ul.removeChild(li)
         }
-        else if (event.target.className == "up") {
+
+        if (event.target.className == "up") {
+            let li = event.target.parentElement // <li></li>
+            let ul = li.parentElement  // <ul></ul>
+            let prev = li.previousElementSibling
+            console.log(prev)
+            if(prev){
+                ul.insertBefore(li, prev)
+            }
         }
-        else if (event.target.className == "down") {
+
+        if (event.target.className == "down") {
+            let li = event.target.parentElement
+            let ul = li.parentElement
+            let next = li.nextElementSibling
+            if (next) {
+                console.log(next)
+                ul.insertBefore(next, li)
+            }
+
         }
+
     }
 
 })
@@ -32,8 +52,6 @@ ulList.addEventListener('click', function (event) {
 {/* <button class = "remove">Remove</button>
 <button class = "up">Up</button>
 <button class = "down">Down</button> */}
-
-
 function createButtons(li) {
     let r = document.createElement('button') // <button></button>
     r.textContent = "Remove" //<button>Remove</button>
