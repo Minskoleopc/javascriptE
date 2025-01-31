@@ -6,8 +6,6 @@
         <li class = "fr" name = 'fruit'>Mango</li>
         <li class = "fr" name = 'fruit'>Papaya</li>
     </ul> */}
-
-
 let byElement = document.querySelector('#one')
 let byElementID = document.getElementById('one')
 console.log(byElement)
